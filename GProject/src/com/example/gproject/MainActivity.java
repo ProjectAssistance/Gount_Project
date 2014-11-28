@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				Intent i = new Intent(MainActivity.this, AddProfile.class);
 				startActivity(i);
+				
 			}
 		});
     }
